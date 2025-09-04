@@ -3,10 +3,26 @@
 This project is a **Machine Learning model** that predicts the selling price of used cars based on various features such as brand, year, mileage, fuel type, transmission, and more.  
 The final model uses **XGBoost Regressor** for high accuracy in predicting prices.
 
----
+## Dataset Description
 
-## 📂 Project Structure
+The dataset used in this project contains details of cars and their selling prices.  
+It includes manufacturer details, specifications, and usage parameters to help predict the resale value of a car.
 
+- **Size of dataset:** ~8,100 records  
+
+**Features:**
+- **Name**: Brand and model of the car.    
+- **Year**: The year of manufacture (used to calculate car age).  
+- **Kilometers_Driven**: Total distance driven by the car (in KM).  
+- **Fuel_Type**: Type of fuel (Petrol, Diesel, CNG, etc.).  
+- **Transmission**: Type of transmission (Manual/Automatic).  
+- **Owner_Type**: Ownership status (First owner, Second owner, etc.).  
+- **Mileage**: Company-claimed mileage (in kmpl or km/kg).  
+- **Engine**: Engine displacement (in cc).  
+- **Power**: Maximum engine power (in bhp).  
+- **Seats**: Seating capacity of the car.  
+- **Seller_Type**: Who is the seller(Individual, Dealer or Trustmark Dealer)
+- **Price** *(Target)*: Selling price of the used car (in INR Lakhs).  
 
 
 ## ✨ Features
